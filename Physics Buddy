@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Physics World | Home</title>
+	<style>
+  * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+header {
+    padding: 40px;
+    background-color: rgb(17, 124, 143);
+}
+
+nav {
+    background-color: #333;
+    overflow:hidden;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+nav a:hover{
+    color: #F10808;
+}
+nav a:visited{
+    color: #D0B625;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+}
+
+section:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+
+section {
+    min-height: 100vh;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 50vh;
+}
+
+img {
+    padding: 10px;
+}
+
+section h5 {
+    margin: 40px;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}</style>
+</head>
+<body>
+	<header>
+		<h1> Your Physics Buddy</h1>
+	</header>
+	<nav>
+		<a href="#">Home</a>
+		<a href="#">PYQs and Model Papers</a>
+		<a href="#">Books and Assignments</a>
+		<a href="sign_in.html" target="_blank">Sign In/Sign Up</a>
+	</nav>
+	<main>
+		<section>
+			<h2>Courses</h2>
+			<iframe width="33%" height="33%" src="https://www.youtube.com/embed/m5VbK66a254" frameborder="0">Electric Charges and Electric Fields 01</iframe>
+			<iframe width="33%" height="33%" src="https://www.youtube.com/embed/KV5HL1AgLeY" frameborder="0">Electrostatics 01</iframe>
+			<iframe width="33%" height="33%" src="https://www.youtube.com/embed/IdAji34f7TE" frameborder="0">Current and Electricity 01</iframe>
+			<h3>For more videos, visit here:</h3>
+			<iframe  width="60%"src="https://www.youtube.com/embed/playlist?list=PLNWoEZAZrFzNOdMEeavC2U23fGKOgQlJz"></iframe>
+
+		</section>
+		<section>
+			<h2>Notes</h2>
+			<a href="Current Electricity NCERT Notes + PYQ's.pdf"  target="_blank" ><img src="curent.jpeg" width="33%" height="45%" ></a>
+			<a href="Electric Charges and Fields.pdf"  target="_blank" ><img src="charge.jpeg" width="33%" height="45%" ></a>
+			<a href="Electrostatic Potential and Capacitance.pdf"  target="_blank" ><img src="statics.jpeg" width="33%" height="45%" ></a>
+			<h3>For more notes, visit here:</h3>
+			<iframe  width="60%"src="https://youtube.com/embed/playlist?list=PLKKfKV1b9e8qohtIyHE8PD0rzSknKUaXm"></iframe>
+		</section>
+		<section>
+			<h2>Board Experiments</h2>
+			<iframe src="https://www.youtube.com/embed/UzJmsXR_epA" width ="33%" height="60%" frameborder="0">Ohm's Law</iframe>
+			<iframe src="https://www.youtube.com/embed/d-fJlWJgF4g" width ="33%" height="60%" frameborder="0">Potentiometer</iframe>
+			<iframe src="https://www.youtube.com/embed/KIgqVude4yY" width ="33%" height="60%" frameborder="0">PN junction diode</iframe>
+			<h3>For more videos, visit here:</h3>
+			<iframe src="https://www.youtube.com/embed/videoseries?list=PLjyfEeObqzucIyAsnP32XtnkgFWHXN57s" width="60%"></iframe>
+
+		</section>
+
+		<section>
+		<h2>Fascinating Physics</h2>
+		<h4>If you are a physics lover then do watch these videos:</h4>
+		<iframe src="https://www.youtube.com/embed/gS1dpowPlE8" width ="33%" height="60%" frameborder="0">How Sun Works</iframe>
+		<iframe src="https://www.youtube.com/embed/gxJ4M7tyLRE" width ="33%" height="60%" frameborder="0">Night</iframe>
+		<iframe src="https://www.youtube.com/embed/d3zTfXvYZ9s" width ="33%" height="60%" frameborder="0">Time Travel</iframe>
+	</section>
+
+		<section>
+			<h2>Our Founder</h2>
+			<img src="Sample Pictures/khushi.jpeg" width="50%" alt="This is Khushi Bansal">
+			<h3>Khushi Bansal</h3>
+			<a href="https://www.linkedin.com/in/khushi-bansal-001520201">LinkedIn</a> &nbsp; &nbsp; | &nbsp; 
+			<a href="https://www.instagram.com/bansalkhushi26?r=nametag">Instagram</a>
+	
+	
+<h4>Khushi Bansal is currently pursuing B.E. degree CSE branch from M.B.M Engineering College, Jodhpur. She is in her first year currently.</h4>
+</section>
+
+
+	</main>
+	<footer>
+	<a href="#" title="">FAQ</a>
+	<a href="#" title="">Contact Us</a>
+	<a href="#" title="">Privacy Policy</a>
+	<a href="#" title="">&copy; 2021| Physics world</a>	
+	</footer>
+	     
+</body>
+</html>
