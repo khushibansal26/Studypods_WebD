@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style type="text/css">
+		
+        header{
+            background-color: black;
+            color: white;
+            font-size: 60px;
+            text-align: center;
+            width: 100%;
+            height: 3cm;
+        }
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            align-items: baseline;
+   
+        }
+
+        .flex-item {
+            
+            width: 30%;
+            margin: 1rem;
+            border: 2px #D4D2D4 solid;
+            box-shadow: 5px 5px 5px #aaaaaa;
+        
+
+        }
+
+        
+
+        .inner-flex-container {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+
+
+        .inner-flex-item {
+            padding: 0rem;
+
+        }
+
+        .inner-flex-item img{
+
+            max-width: 100%;
+            max-height: 100%;
+              
+        }
+
+        h1 {
+          text-align: center;  
+        }
+
+        p {
+            font-size: 2rem;
+            margin: 2rem;
+        }
+        button {
+
+            margin: 2rem;
+            font-size: 150%;
+            color: white;
+            background-color:black;
+            padding: 10px 30px;
+            padding-left: 130px;
+            padding-right: 130px;
+        }
+	</style>
+</head>
+<body>
+    <header>F.R.I.E.N.D.S</header>
+	<div class="flex-container">
+        <div class="flex-item"> 
+            <div class="inner-flex-container">
+                    <div class="inner-flex-item" id="temp"  >
+                        
+                        <img src=img/joey.jpg alt="">
+
+                    </div>
+                    
+                    <div class="inner-flex-item sub">
+                        
+                            <h1>Joey Tribbiani</h1>
+
+                    </div>
+
+                    <div class="inner-flex-item sub">
+                        
+                        <p>Joey Tribbiani is portrayed as promiscuous and dim-witted but good-natured, as well as very loyal, caring, and protective of his friends.
+                        </p>
+
+                    </div>
+
+                    <div class="inner-flex-item sub">
+                        
+                    <a href="#">
+                        <button>
+                               Read More
+                        </button>
+                    </a>
+
+                    </div>
+            </div> 
+        </div>
+        
+        <div class="flex-item"> 
+            <div class="inner-flex-container">
+                    <div class="inner-flex-item" id="temp"  >
+                        
+                        <img src="img/rachel.jpg" alt="">
+
+                    </div>
+                    
+                    <div class="inner-flex-item sub">
+                        
+                        <h1>Rachel Green</h1>
+
+                    </div>
+
+                    <div class="inner-flex-item sub">
+                        
+                        <p>Rachel Green is introduced in the show's pilot as a naïve runaway bride who reunites with her childhood best friend Monica Geller and relocates to New York City,                        </p>
+
+                    </div>
+
+                    <div class="inner-flex-item sub">
+                        
+                    <a href="#">
+                        <button>
+                            Read More
+                        </button>
+                    </a>
+
+                    </div>
+            </div> 
+        </div>
+
+        <div class="flex-item"> 
+            <div class="inner-flex-container">
+                    <div class="inner-flex-item" id="temp"  >
+                        
+                        <img src="https://getclick51034576.files.wordpress.com/2020/05/da7f2bef84a9dc4e3ca41e5ccdf07bb2.jpg" alt="">
+
+                    </div>
+                    
+                    <div class="inner-flex-item sub">
+                        
+                            <h1>Phoebe Buffay</h1>
+
+                    </div>
+
+                    <div class="inner-flex-item sub">
+                        
+                        <p>
+                         Phoebe Buffay is a masseuse and musician, notable for her offbeat and extremely ditzy behavior. She was Monica Geller's roommate before Rachel Green.
+                                          </p>
+
+                    </div>
+
+                    <div class="inner-flex-item sub">
+                        
+                    <a href="#">
+                        <button>
+                                Read More
+                        </button>
+                    </a>
+
+                    </div>
+            </div> 
+        </div>
+    </div>
+
+
+
+</body>
+</html>
